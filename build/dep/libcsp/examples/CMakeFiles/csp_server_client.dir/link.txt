@@ -1,0 +1,1 @@
+/usr/bin/clang -Os -DNDEBUG CMakeFiles/csp_server_client.dir/csp_server_client.c.o CMakeFiles/csp_server_client.dir/csp_server_client_posix.c.o -o csp_server_client  -Wl,-rpath,"/home/jsmartini/Desktop/BAMA-1 C++/build/dep/libcsp" ../liblibcsp.so 
