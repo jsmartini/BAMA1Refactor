@@ -1,20 +1,27 @@
-#include <unistd.h>
-#include <csp/csp_debug.h>
-#include <csp/csp_types.h>
-#include <csp/csp_hooks.h>
-#include <csp/arch/csp_time.h>
-#include <csp/arch/csp_queue.h>
-#include <assert.h>
-#include <stdlib.h>
+extern "C" {
+    #include <unistd.h>
+    #include <csp/csp_debug.h>
+    #include <csp/csp_types.h>
+    #include <csp/csp_hooks.h>
+    #include <csp/arch/csp_time.h>
+    #include <csp/arch/csp_queue.h>
+    #include <assert.h>
+    #include <stdlib.h>
+}
+
+#include <iostream>
+
+using namespace std;
+
 
 int main(int argc, char * argv[]) {
 
-
+    cout<< "Starting Test Program" << endl;
     // clock
     csp_timestamp_t csp_clock = {};
     csp_clock_get_time(&csp_clock);
     assert(csp_clock.tv_sec != 0);
-    csp_print("csp_clock_get_time(..) -> sec:nsec = %"PRIu32":%"PRIu32"\n", csp_clock.tv_sec, csp_clock.tv_nsec);
+    csp_print("csp_clock_get_time(..) -> sec:nsec = %" PRIu32":%" PRIu32"\n", csp_clock.tv_sec, csp_clock.tv_nsec);
 
     // relative time
     const uint32_t msec1 = csp_get_ms();
@@ -59,6 +66,6 @@ int main(int argc, char * argv[]) {
     assert(value == 2);
     assert(csp_queue_dequeue_isr(q, &value, NULL) == CSP_QUEUE_OK);
     assert(value == 3);
-
+    cout << "Ending Test Program" << endl;
     return 0;
 }

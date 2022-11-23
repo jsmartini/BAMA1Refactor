@@ -10,4 +10,12 @@ dep/libcsp/CMakeFiles/libcsp.dir/src/csp_debug.c.o: \
   /usr/include/bits/types.h /usr/include/bits/typesizes.h \
   /usr/include/bits/time64.h /usr/include/bits/wchar.h \
   /usr/include/bits/stdint-intn.h /usr/include/bits/stdint-uintn.h \
-  /home/jsmartini/Desktop/BAMA-1\ C++/dep/libcsp/include/csp/csp_autoconfig.h
+  /home/jsmartini/Desktop/BAMA-1\ C++/dep/libcsp/include/csp/csp_autoconfig.h \
+  /usr/lib/clang/14.0.6/include/stdarg.h /usr/include/stdio.h \
+  /usr/lib/clang/14.0.6/include/stddef.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/stdio_lim.h /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h
