@@ -1,0 +1,1 @@
+/usr/bin/clang -Os -DNDEBUG CMakeFiles/zmqproxy.dir/zmqproxy.c.o -o zmqproxy  -Wl,-rpath,"/home/jsmartini/Desktop/BAMA-1 C++/b/dep/libcsp" ../liblibcsp.so -lzmq 

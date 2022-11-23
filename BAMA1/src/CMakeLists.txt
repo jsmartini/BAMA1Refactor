@@ -6,4 +6,4 @@ link_directories(${BAMA1Refactor_SOURCE_DIR}/dep/libcsp/src)
 link_directories(${BAMA1Refactor_SOURCE_DIR}/dep/libcsp/utils)
 
 add_executable(BAMA1Refactor main.c)
-target_link_libraries(BAMA1Refactor CSP)
+target_link_libraries(BAMA1Refactor libcsp)

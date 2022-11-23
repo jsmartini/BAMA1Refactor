@@ -1,0 +1,1 @@
+/usr/bin/clang -Os -DNDEBUG CMakeFiles/csp_arch.dir/csp_arch.c.o -o csp_arch  -Wl,-rpath,"/home/jsmartini/Desktop/BAMA-1 C++/b/dep/libcsp" ../liblibcsp.so 
