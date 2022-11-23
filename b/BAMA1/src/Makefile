@@ -130,29 +130,29 @@ BAMA1Refactor/fast:
 	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build
 .PHONY : BAMA1Refactor/fast
 
-main.o: main.c.o
+main.o: main.cxx.o
 .PHONY : main.o
 
 # target to build an object file
-main.c.o:
-	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.c.o
-.PHONY : main.c.o
+main.cxx.o:
+	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.cxx.o
+.PHONY : main.cxx.o
 
-main.i: main.c.i
+main.i: main.cxx.i
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.c.i
-.PHONY : main.c.i
+main.cxx.i:
+	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.cxx.i
+.PHONY : main.cxx.i
 
-main.s: main.c.s
+main.s: main.cxx.s
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.c.s
-.PHONY : main.c.s
+main.cxx.s:
+	cd "/home/jsmartini/Desktop/BAMA-1 C++/b" && $(MAKE) $(MAKESILENT) -f BAMA1/src/CMakeFiles/BAMA1Refactor.dir/build.make BAMA1/src/CMakeFiles/BAMA1Refactor.dir/main.cxx.s
+.PHONY : main.cxx.s
 
 # Help Target
 help:
